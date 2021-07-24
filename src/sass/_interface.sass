@@ -10,15 +10,23 @@ $textbody: #808080
 $infield: #CCCCCC
 $white: #FFFFFF
 $black: #000
+$disable: #E6E6E6
 // Other color
 $hovergreen: #359433
 *
     font-family: "Inter", sans-serif
 .main-section
     background-color: $richgreen
+    border-radius: 0px 0px 0px 80px
 .green-btn
     background-color: $green
     color: $white
+    border-radius: 8px
 a
-    text-decoration-color: $green
-    color: $white
+    color: $white !important
+    text-decoration: none !important
+    transition: 0.4s
+    &:hover
+        border-bottom: 3px solid $green
+h1, h2, h3, h4, h5, h6
+    font-weight: bold
