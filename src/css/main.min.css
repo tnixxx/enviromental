@@ -1,1 +1,2 @@
-/* No CSS *//*# sourceMappingURL=main.min.css.map */
+*{font-family:"Inter", sans-serif}.main-section{background-color:#254330}.green-btn{background-color:#53C351;color:#fff}a{text-decoration-color:#53C351;color:#fff}.header{padding-top:32px;display:flex;justify-content:space-between;align-items:center}.header-nav{display:flex;justify-content:space-between;max-width:455px;width:100%}.header__button{padding:12px 41px;border-radius:8px;font-size:14px;line-height:24px}@media (max-width: 992px){.header-nav{display:none}}
+/*# sourceMappingURL=main.min.css.map */
